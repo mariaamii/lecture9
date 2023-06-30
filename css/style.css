@@ -1,8 +1,8 @@
-header{
+header {
     height: 84px;
 }
 
-.headerflex{
+.headerflex {
     height: 100%;
     display: flex;
     flex-direction: row;
@@ -11,35 +11,30 @@ header{
     flex-wrap: nowrap;
 }
 
-
-.container{
-   max-width:1242px;
-   width: 100%;
+.container {
+    max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
-   ;
 }
-nav{
-     
-}
- ul {
-    width: 500px    ;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;  
- }
 
- li a{
-    
+nav ul {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+li a {
     color: #636060;
     font-size: 17px;
     font-family: Helvetica;
- }
+}
 
- /* section1 */
 
- .s-1{
+/* section 1 */
+
+.s-1 {
     height: 606px;
-    background-image: url(../images/back-img.jpg);
+    background-image: url("../images/back-img.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -47,81 +42,81 @@ nav{
     justify-content: center;
     align-items: center;
     margin-bottom: 84px;
- }
+}
 
- .div1 h2{
-    color: #FFF;
+.infodiv h2 {
+    color: #fff;
     font-size: 79px;
     font-family: Helvetica;
     font-weight: 700;
     text-align: center;
     margin-bottom: 31px;
- }
- .div1 h5{
-    color: #FFF;
+}
+
+.infodiv h5 {
+    color: #fff;
     font-size: 19px;
     font-family: Helvetica;
     text-align: center;
- }
+}
 
-
-    /* section2 */
-
-   .section2flex{
+/* section 2 */
+.section2flex {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
- }
- 
- .infobox{
+}
+
+.infobox {
     width: 235px;
- }
- .myh1{
+}
+
+.infobox h4 {
     color: #636060;
     font-size: 17px;
     font-family: Helvetica;
-    margin-bottom: 9px;;
- }
- .infobox h3{
+    margin-bottom: 10px;
+}
+.infobox h3 {
     color: #010101;
     font-size: 28px;
     font-family: Helvetica;
-    margin-bottom: 30px;
- }
- .infobox p{
+    margin-bottom: 37px;
+}
+.infobox p {
     color: #636060;
     font-size: 20px;
     font-family: Helvetica;
- }
+}
 
-.cardwrapper{
+.cardswrapper {
     max-width: 924px;
     width: 100%;
     display: flex;
-   flex-wrap: wrap;
-   justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
- .card{
+.card {
     width: 286px;
-    margin-bottom: 56px ;
- }
- .card-img{
+    margin: 0 10px;
+    margin-bottom: 56px;
+}
+
+.card img {
     width: 100%;
     margin-bottom: 23px;
-    
- }
- .card h4{
+}
+
+.card h4 {
     color: #343232;
     font-size: 19px;
     font-family: Helvetica;
-    margin-bottom: 9px;
-    width: 286px;
- }
+    margin-bottom: 10px;
+}
 .card p {
-    
-    width: 286px;
     color: #636060;
     font-size: 18px;
     font-family: Helvetica;
-   
 }
+
