@@ -14,20 +14,22 @@ header{
 
 .container{
    max-width:1242px;
-   width: 95%;
+   width: 100%;
     margin: 0 auto;
    ;
 }
 nav{
- border: 1px solid red;   
+     
 }
- nav ul {
-  width: 500ox    ;
-  display: flex;
-  justify-content: space-between;  
+ ul {
+    width: 500px    ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
  }
 
  li a{
+    
     color: #636060;
     font-size: 17px;
     font-family: Helvetica;
@@ -96,15 +98,17 @@ nav{
     width: 100%;
     display: flex;
    flex-wrap: wrap;
+   justify-content: space-between;
+}
 
  .card{
     width: 286px;
+    margin-bottom: 56px ;
  }
  .card-img{
     width: 100%;
     margin-bottom: 23px;
-    width: 286px;
-    margin-bottom: 23px;
+    
  }
  .card h4{
     color: #343232;
@@ -114,9 +118,10 @@ nav{
     width: 286px;
  }
 .card p {
-    border: 1px solid red;
+    
+    width: 286px;
     color: #636060;
     font-size: 18px;
     font-family: Helvetica;
-    width: 286px;
+   
 }
